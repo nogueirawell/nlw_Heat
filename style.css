@@ -42,6 +42,7 @@ main {
 .avatar span {
   position: absolute;
   top: -15px;
+  left: -11px;
   z-index: 1;
 }
 /* o position absolute tira a imagem contida dentro do span do mesmo nível da imagem que está na classe avatar
