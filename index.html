@@ -21,17 +21,18 @@
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
           <img
-            src="https://avatars.githubusercontent.com/u/14242870?v=4"
+            id="userImage"
+            src="https://lorempixel.com/185/185/people"
             alt="Foto pessoal"
           />
         </div>
-        <h1 id="userName">Wellington Nogueira</h1>
-        <a href="https://github.com/nogueirawell" target="_blank">
+        <h1 id="userName">Wellington Nogueira Elizeu da Conceição</h1>
+        <a id="userLink" href="https://github.com/maykbrito" target="_blank">
           <img src="images/github.svg" alt="Ícone Github" />
-          xxweell</a
+          <span id="userLogin">maykbrito</span></a
         >
 
-        <p>Estudante de programação Web</p>
+        <p id="userBio">Estudante de programação Web</p>
 
         <ul id="socialLinks">
           <li class="youtube">
@@ -60,24 +61,6 @@
         </ul>
       </div>
     </main>
-
-    <script>
-      const linksSocialMedia = {
-        github: 'nogueirawell',
-        youtube: 'jakelinygracielly',
-        facebook: 'wellington.nogueira.775',
-        instagram: 'xxweell',
-        twitter: 'NogueiraWeell'
-      }
-
-      function changeSocialMediaLinks() {
-        for (let li of socialLinks.children) {
-          const social = li.getAttribute('class')
-          li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
-        }
-      }
-
-      changeSocialMediaLinks()
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
