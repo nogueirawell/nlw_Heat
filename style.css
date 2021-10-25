@@ -101,6 +101,7 @@ ul {
 }
 @media (min-width: 960px) {
   main {
+    font-size: 16px;
     background: url(images/desktop-background.svg) no-repeat center/cover;
     width: 100vw;
     height: 100vh;
